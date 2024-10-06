@@ -26,13 +26,13 @@ Follow these steps to use the Login Wallpaper Changer script:
 
  1. **Run the Script**:
 - Run the script with Python 3. You may need to provide executable permissions to the script, or you can run it directly:
-sudo chmod +x /path/to/change-login-wallpaper.py
-python3 change-login-wallpaper.py
+└─# sudo chmod +x /path/to/change-login-wallpaper.py
+└─# python3 change-login-wallpaper.py
 
  2. **Select a Wallpaper**:
 - Click on the "Select Wallpaper Image" button.
 - A file dialog will open, starting in your **home directory**. From here, you can browse and select an image file. The supported formats are PNG, JPG, and JPEG.
-- Note: Hidden directories will not be shown in the file selection dialog unless manually toggled.
+- Note: Hidden directories will be shown in the file selection dialog, just ignore them.
 
  3. **Provide Sudo Password**:
 - After selecting an image, the script will prompt you to enter your `sudo` password. This is required because modifying the login screen background requires root privileges.
